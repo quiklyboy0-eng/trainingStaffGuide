@@ -1,9 +1,15 @@
-# trainingStaffGuide
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Official Florida State Roleplay staff training website with rules, staff guide, driving test procedures, and mod call training.">
+<meta name="theme-color" content="#001122">
+<meta property="og:title" content="Florida State Roleplay • Staff Training">
+<meta property="og:description" content="Official Florida State Roleplay staff training website with rules, staff guide, driving test procedures, and mod call training.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Florida State Roleplay">
+<meta name="twitter:card" content="summary_large_image">
 <title>Florida State Roleplay • Staff Training</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -273,47 +279,86 @@ padding: 20px;
 <button class="copy-btn" onclick="copySection(this)">Copy Opening</button>
 </div>
 
+<div class="section">
+<h2>LLC Command Rule</h2>
+<p>Low-letter commands (LLC): when using commands, you need at least four letters of the target username. Repeated LLC will result in serious consequences.</p>
+<button class="copy-btn" onclick="copySection(this)">Copy LLC Rule</button>
+</div>
+
+<div class="section">
+<h2>Off-Duty Command Rule</h2>
+<p>You cannot use commands unless you are on duty. You may only use :pm until you reach JMGMT+.</p>
+<button class="copy-btn" onclick="copySection(this)">Copy Off-Duty Rule</button>
+</div>
+
 <!-- Training Rules (Chat) -->
 <div class="section">
 <h2>Training Rules</h2>
 <p>Excellent SPaG is required at all times. Immaturity or disrespect will result in instant dismissal.</p>
-<p>You may not go AFK without permission. Respond to questions with “Yes, [Rank].” or “Yes, [Sir/Ma’am].”</p>
+<p>You may not go AFK without permission. Respond to questions with "Yes, [Rank]." or "Yes, [Sir/Ma'am]."</p>
 <button class="copy-btn" onclick="copySection(this)">Copy Training Rules</button>
 </div>
 
 <!-- Control Questions -->
 <div class="section">
 <h2>Control Questions</h2>
-<p>What does RDM mean? What does VDM mean?</p>
-<p>What does NITRP stand for? What do MA and AA stand for?</p>
+<div style="margin-bottom: 16px;">
+<p>What does RDM mean?</p>
+<button class="copy-btn" onclick="copySection(this)">Copy Question 1</button>
+</div>
+<div style="margin-bottom: 16px;">
+<p>What does VDM mean?</p>
+<button class="copy-btn" onclick="copySection(this)">Copy Question 2</button>
+</div>
+<div style="margin-bottom: 16px;">
+<p>What does NITRP stand for?</p>
+<button class="copy-btn" onclick="copySection(this)">Copy Question 3</button>
+</div>
+<div style="margin-bottom: 16px;">
+<p>What do MA and AA stand for?</p>
+<button class="copy-btn" onclick="copySection(this)">Copy Question 4</button>
+</div>
+<div style="margin-bottom: 16px;">
 <p>Player Alex kills someone purely for fun. What punishment?</p>
+<button class="copy-btn" onclick="copySection(this)">Copy Question 5</button>
+</div>
+<div>
 <p>Player Jordan shoots a vehicle until it explodes. What punishment?</p>
-<button class="copy-btn" onclick="copySection(this)">Copy Control Questions</button>
+<button class="copy-btn" onclick="copySection(this)">Copy Question 6</button>
+</div>
 </div>
 
 <!-- Core Expectations -->
 <div class="section">
 <h2>Core Expectations</h2>
 <p>Always treat players and staff with respect. Disrespect can lead to infractions.</p>
-<p>When issuing a kick, explain the reason clearly. Example: “You are being kicked for [reason]. Wait 30 minutes before rejoining.”</p>
-<p>Never use commands like “all” or “others”. Mass commands result in automatic blacklist.</p>
+<p>When issuing a kick, explain the reason clearly. Example: "You are being kicked for [reason]. Wait 30 minutes before rejoining."</p>
+<p>Never use commands like "all" or "others". Mass commands result in automatic blacklist.</p>
 <button class="copy-btn" onclick="copySection(this)">Copy Expectations Part 1</button>
 <button class="copy-btn" onclick="copySection(this)" style="margin-top:8px; background:#0099cc;">Copy Expectations Part 2</button>
+</div>
+
+<!-- Driving Test -->
+<div class="section">
+<h2>Driving Test</h2>
+<p>You have a total of 10 points. Each traffic violation deducts 1 point. You will go to the DMV building, and the driving test ends there.</p>
+<button class="copy-btn" onclick="copySection(this)">Copy Driving Test</button>
 </div>
 
 <!-- Mod Call Procedure -->
 <div class="section">
 <h2>Mod Call Procedure</h2>
-<p>Greet the player professionally: “Hello! This is [Rank] [Username]. How may I assist you today?”</p>
-<p>Before ending, ask: “Is there anything more I can do for you today?”</p>
+<p>Greet the player professionally: "Hello! This is [Rank] [Username]. How may I assist you today?"</p>
+<p>Before ending, ask: "Is there anything more I can do for you today?"</p>
 <p>All actions are handled through Melonly.</p>
+<p>We will go through a total of 4 mod calls during this training.</p>
 <button class="copy-btn" onclick="copySection(this)">Copy Mod Call Procedure</button>
 </div>
 
 <!-- Closing -->
 <div class="section">
 <h2>Closing Statement</h2>
-<p>We will now begin the hands-on portion of the training.</p>
+<p>Your training is done now. Please leave the sheriff’s team and wait for your result.</p>
 <button class="copy-btn" onclick="copySection(this)">Copy Closing</button>
 </div>
 
@@ -327,6 +372,10 @@ Mod Call Simulations: Run at least 4 calls. Provide feedback and mark fail if ne
 </div>
 </div>
 </div>
+
+<footer style="text-align: center; padding: 20px; background: rgba(10, 31, 61, 0.95); color: var(--primary); margin-top: 40px; border-top: 1px solid var(--primary);">
+<p style="margin: 0; font-size: 0.95rem;">Official Florida State Roleplay staff training website. For staff use only.</p>
+</footer>
 
 <script>
 function switchTab(tabIndex) {
